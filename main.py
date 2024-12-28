@@ -1,11 +1,8 @@
 import comp as c
 import op
 
-
-for i in range(1,10):
-    op.mov("A", "B") 
-    op.mov("B", "C")
-    op.mov("C", "A")
+#Your code goes here :)
 
 
-print(c.code)
+
+print(c.code) #prints the output of the binary compilation of instructions 

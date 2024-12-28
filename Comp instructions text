@@ -1,0 +1,15 @@
+Buffer to Current	Binary Code	Function	Instruction #	Active Component(s)	Comp 4  language
+Select Register A	0	Register Selection	0	Register	Register select "A" Active
+Select Register B	1	Register Selection	1	Register	Register Select "B" Active
+Select Register C	10	Register Selection	2	Register	Register Select "C" Active
+Select Register D	11	Register Selection	3	Register	Register Select "D" Active
+Register Cur to Buff	100	Register read/write	4	Register	Store Register to Buffer
+Buffer to Current	101	Register read/write	5	Register	Write Register From Buffer
+Clock Register Current	110	Register Write only	6	Register	Write Register From active Data
+ALU write A	111	ALU data op	7	ALU	Write ALU A from active Data
+ALU write B	1000	ALU data op	8	ALU	Write ALU B from Active Data
+ALU +	1001	ALU math op	9	ALU	Adds the #'s in registers a and b
+ALU -	1010	ALU math op	10	ALU	
+			11		
+			12		
+			15		b
