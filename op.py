@@ -12,4 +12,10 @@ class alu():
         c.write_alu("A") #Sets x to alu A
         c.register.select(y)
         c.write_alu("B") #Sets y to alu B, this assums that we want to set the values sequentialy
-print(c.code)
+    def math(opperation):
+        if opperation == "+":
+            c.alu_math_op("+")
+        elif opperation == "-":
+            c.alu_math_op("-")
+        else:
+            raise Exception("Invalid opperation, you put", opperation, "Avalible options are + and -")
